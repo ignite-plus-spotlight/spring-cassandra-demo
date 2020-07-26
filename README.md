@@ -7,11 +7,11 @@ Cassandra Demo
 
 ### Request / Response : 
 
-- Primary Key : 
+- Primary Key 
     Request : `http://localhost:8080/emp/primaryKey`
     Response : `{"employeeKey":{"empId":"1","empName":"sam"},"empEmail":"sam@sam.com"}`
     
-- Partition Key : 
+- Partition Key 
     Request : `http://localhost:8080/emp/partitionKey`
     Response : `[{"employeeKey":{"empId":"1","empName":"sam"},"empEmail":"sam@sam.com"}]`
        
