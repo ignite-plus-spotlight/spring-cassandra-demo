@@ -5,7 +5,7 @@ Cassandra Demo
 ### Schema Present in : 
 ```resources/cassandra/employee.cql```
 
-###Request / Response : 
+### Request / Response : 
 
 - Primary Key : 
     Request - http://localhost:8080/emp/primaryKey
